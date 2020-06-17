@@ -40,9 +40,8 @@ For the airline logos, insert the airline id to the following url: `https://logo
 
 ## Client implementation
 
-We'd like you to use [React](https://facebook.github.io/react/). On top of that, use whatever front-end libraries you feel comfortable with.
+We'd like you to use the latest version of Angular, using the Angular CLI. On top of that, use whatever front-end libraries you feel comfortable with.
 
-We've set you up with a build based on [our custom fork](https://backpack.github.io/using/backpack-react-scripts) of Facebook's [create-react-app](https://github.com/facebookincubator/create-react-app).
 
 We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
