@@ -20,8 +20,6 @@ You will be graded based on the following have been met:
 
 ## Task
 
-We have placed a number of helpful todos inside the code (see `index.js` and `App.jsx`) to help get you started, the main items we are looking for are:
-
 - Fetch flight results from the provided `flights.json` and format them into client readable results.
   - You are not required to serve this separately from the dev server (i.e. `npm start`).
 
@@ -30,9 +28,7 @@ We have placed a number of helpful todos inside the code (see `index.js` and `Ap
 
 ## Design
 
-We've provided a [design](./designs/results-small.png) for small-screens (480px). Don't worry about tackling larger breakpoints, but **please make sure your solution looks good at 480px in portrait orientation**.
-
-The design shows a look and feel defined in our [styleguide](https://backpack.github.io/). Feel free to import our React components into your project, or lift colours and things directly from the styleguide pages. We also have some auto-generated [sassdoc](https://backpack.github.io/sassdoc/) that may help.
+We've provided a [design](./designs/results-small.png) for small-screens (480px). We'd like to see how you make this design responsive for desktop use as well. 
 
 **NB:** You don't have to use our styleguide or our components -- picking colours from the image and rolling your own css to save time is absolutely fine.
 
@@ -41,9 +37,6 @@ For the airline logos, insert the airline id to the following url: `https://logo
 ## Client implementation
 
 We'd like you to use the latest version of Angular, using the Angular CLI. On top of that, use whatever front-end libraries you feel comfortable with.
-
-
-We've wired in [Sass](http://sass-lang.com/) with our base stylesheet (`bpk-stylesheets`) + mixins (`bpk-mixins`) for you to get at -- see the [`Header`](./client/src/components/Header/Header.jsx) component for example use.
 
 ## Flight results
 
